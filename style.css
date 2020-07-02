@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font-family: 'PT Mono', monospace;
+}
+.para-text{
+    padding-top: 200px;
+}
+section{
+    padding-top: 200px;
+}
+p{
+    color:dimgray;
+    text-align: left;
+    }
+
+.blue-highlight{
+    color:  #63A4FF;
+    font-size: 50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left:2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    height:800px;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #83EAF1, #63A4FF);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    }
+.anchor-button:hover{
+        color:darkred;
+    }
+.mid-banner {
+        background-image: url("images/biography-bg.png");
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+.para{
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.latest-work {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.port-img img{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left:2%;
+    box-sizing: 10px;
+    box-shadow: 20px 20px 40px grey;
+    border-radius: 10px;
+    }
+.client-contact {
+        background-image: url("images/footer-bg.png");
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+.mail-bg{
+    background-image: linear-gradient(45deg, #83EAF1, #63A4FF);
+    background-position: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 50px 600px;
+}
+footer p{
+    text-align: center;
+}
